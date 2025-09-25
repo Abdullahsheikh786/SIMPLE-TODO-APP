@@ -1,0 +1,95 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background: #b5b0b0;
+        background: linear-gradient(90deg, rgba(181, 176, 176, 1) 0%, rgba(71, 71, 245, 1) 36%, rgba(0, 212, 255, 1) 100%);
+    }
+
+    #todocontainer {
+        /* border: 1px solid rgb(175, 163, 163); */
+        width: 500px;
+        margin: auto;
+        margin-top: 200px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 10px;
+        /* text-align: center; */
+        font-family: sans-serif;
+        /* background: #444dc4; */
+        background: #021741;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    #Input {
+        width: 350px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid black;
+        border: none;
+        border-radius: 10px;
+        /* margin: 10px; */
+        outline: none;
+        margin-top: 30px;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        background: lightgrey;
+
+    }
+
+    #Input:focus {
+        box-shadow: 0 0 5px 2px #444dc4;
+    }
+
+    input::placeholder {
+        color: rgb(58, 58, 58);
+        /* padding-left: 10px; */
+        font-size: 16px;
+    }
+
+    #btn {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        /* background-color: rgb(0, 0, 0); */
+        background-color: #444dc4;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    li {
+        list-style: none;
+        padding: 10px;
+        font-size: 18px;
+        border-bottom: 1px solid grey;
+        color: white;
+    }
+
+    .deleteBtn {
+        float: right;
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .editBtn{
+        float: right;
+        background-color: rgb(5, 207, 83);
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 5px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
